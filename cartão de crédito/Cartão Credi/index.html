@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="shortcut icon" href="img/mastercard.png" type="image/x-icon">
+    <title>Credit Card Dio</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="sidebarLeft">
+            <img class="logo" src="img/mastercard.png" width="60" alt="Logo">
+            <img src="img/nav.png" width="35" alt="Icone Navegação">
+            <img src="img/carteira.png" width="35" alt="Carteira">
+            <img class="exit" src="img/exit.png" width="35" alt="">
+        </div>
+        <div class="center">
+            <div class="search">
+                <input type="search">
+                <div class="button">
+                    <div class="search icon"></div>
+                </div>
+            </div>
+            <div class="future">
+                <div class="descript">
+                    <h1>Seu futuro está seguro conosco! </h1>
+                    <p>Ei! seu saldo e atividades diárias do cartão e gerencie sua conta.</p>
+                    <span>Saiba mais<img class="saibamais" src="img/saibamais.png" width="15" title="seta"></img></span>
+                </div>
+                <img src="img/people.png" width="140" alt="Pessoa">
+            </div>
+            <h3>Estatisticas</h3>
+            <div class="statistics">
+                <canvas id="myChart" height="145"></canvas>
+            </div>
+            <h3>Cartões</h3>
+            <div class="cards">
+                <div class="card1">
+                    <img src="img/mastercard.png" width="50" alt="Cartão MasterCard">
+                    <span>Crédito</span>
+                    <p>Limite Disponível</p>
+                    <h3>R$ 2.500,00</h3>
+                    <p>**** **** **** 9623</p>
+                </div>
+                <div class="card2 card1">
+                    <img src="img/mastercard.png" width="50" alt="Cartão MasterCard">
+                    <span>Crédito</span>
+                    <p>Limite Disponível</p>
+                    <h3>R$ 1.500,00</h3>
+                    <p>**** **** **** 9627</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebarRight">
+            <div class="menu">
+                <ul>
+                    <li><img class="iconMenu" src="img/target.png" alt="Alvo" width="25"></li>
+                    <li><img class="iconMenu" src="img/settings.png" alt="Configuração" width="25"></li>
+                    <li><img class="iconMenu" src="img/alarm.png" alt="Notificação" width="25"></li>
+                    <li><img class="avatar" src="img/avatar.jpg" alt="Avatar" width="37"></li>
+                    <li>
+                        <p>Diego</p>
+                    </li>
+                    <li><img class="arrow" src="img/arrow.png" alt="Menu" width="15"></li>
+                </ul>
+            </div>
+            <div class="balance">
+                <div class="detalhes">
+                    <div class="dadosCartao">
+                        <ul>
+                            <li>Cartão Final **** **** **** 9623</li>
+                            <li><img class="masterCard" src="img/mastercard.png" alt="Cartão MasterCard" width="30"></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="saldoCartao">
+                    <p>Saldo Disponível</p>
+                    <h1 class="saldo"></h1>
+                </div>
+            </div>
+            <h3>Faturas</h3>
+            <div class="faturas">
+                <ul>
+                    <li><a>Jan</a></li>
+                    <li>Fev</li>
+                    <li>Mar</li>
+                    <li>Abr</li>
+                    <li>Mai</li>
+                    <li>Jun</li>
+                    <li>Jul</li>
+                    <li>Ago</li>
+                    <li>Set</li>
+                    <li>Out</li>
+                    <li>Nov</li>
+                    <li>Dez</li>
+                </ul>
+            </div>
+            <h3>Histórico de compras</h3>
+            <div class="historico">
+                <ul>
+                    <li class="hitoricoLinha"><img src="img/uber.png" alt="Icone Transporte" width="35">
+                        <h5>Transporte</h5>
+                        <p>Uber </p>
+                        <span>R$ 67,52</span>
+                    </li>
+
+                    <li class="hitoricoLinha"><img src="img/refeicao.png" alt="Icone Refeição" width="35">
+                        <h5>Restaurante</h5>
+                        <p>Taverna bom te ver</p>
+                        <span>R$ 35,23</span>
+                    </li>
+                    <li class="hitoricoLinha"><img src="img/teatro.png" alt="Icone Teatro" width="35">
+                        <h5>Teatro</h5>
+                        <p>Teatro </p>
+                        <span>R$ 59,92</span>
+                    </li>
+                    <li class="hitoricoLinha"><img src="img/cinema.png" alt="Icone Cinema" width="35">
+                        <h5>Cinema</h5>
+                        <p>Shopping</p>
+                        <span>R$ 92,15</span>
+                    </li>
+                    <li class="hitoricoLinha"><img src="img/compras.png" alt="Icone Super Mercado" width="35">
+                        <h5>Super Mercado</h5>
+                        <p>compras</p>
+                        <span>R$ 400,18</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

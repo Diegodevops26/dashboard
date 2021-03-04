@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #641270;
+}
+
+.box {
+    width: 1200px;
+    height: 800px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 14px -2px rgba(196, 196, 196, 1);
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.sidebarLeft {
+    width: 120px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: hsl(192, 71%, 39%);
+}
+
+.sidebarLeft .logo {
+    cursor: pointer;
+    margin-top: 14px;
+    margin-bottom: 70px;
+    margin-left: 33px;
+}
+
+.sidebarLeft img {
+    cursor: pointer;
+    margin: 20px 45px
+}
+
+.sidebarLeft .exit {
+    cursor: pointer;
+    margin-top: 425px;
+    margin-left: 50px;
+}
+
+.center {
+    width: 580px;
+    padding: 25px 40px;
+}
+
+.sidebarRight {
+    width: 400px;
+    padding: 25px 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #F5F6FA;
+}
+
+.center input[type='search'] {
+    border-radius: 5px;
+    width: 200px;
+    padding: 9px;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: #F4F7FF;
+    float: left;
+    outline: none;
+}
+
+.center .button {
+    margin-left: -10px;
+    width: 40px;
+    height: 34px;
+    padding: 3px;
+    float: left;
+    cursor: pointer;
+    background-color: #2DB177;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button img {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.search.icon {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    border: solid 2px currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.search.icon:before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    height: 6px;
+    width: 2px;
+    background-color: currentColor;
+}
+
+.center .future {
+    width: 100%;
+    height: 150px;
+    background-color: #F4F7FF;
+    margin-top: 70px;
+    border-radius: 10px;
+    margin-bottom: 27px;
+}
+
+.future .descript {
+    width: 70%;
+    float: left;
+}
+
+.future h1 {
+    font-weight: 500;
+    font-size: 22px;
+    padding: 17px 10px;
+    float: left;
+    color: #2DB177;
+}
+
+.future p {
+    font-weight: 400;
+    font-size: 14px;
+    margin: -15px 10px;
+    float: left;
+    color: rgb(110, 110, 110);
+}
+
+.center .future img {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.statistics {
+    width: 100%;
+    height: 260px;
+    background-color: #F4F7FF;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.center h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+.future span {
+    float: left;
+    margin: 25px 10px;
+    font-weight: 500;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+.future span:hover {
+    color: #2DB177;
+}
+
+.future span .saibamais {
+    margin-top: 9px;
+    margin-left: 4px;
+}
+
+.cards {
+    width: 100%;
+    height: 135px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.cards .card1 {
+    width: 45%;
+    height: 137px;
+    background-color: #6d6a6a;
+    float: left;
+    border-radius: 5px;
+}
+
+.cards .card2 {
+    width: 45%;
+    height: 137px;
+    background-color: #8b4a4a;
+    float: right;
+    border-radius: 5px;
+}
+
+.card.icon {
+    color: #ffffff;
+    position: absolute;
+    margin-left: 42px;
+    margin-top: 15px;
+    width: 35px;
+    height: 20px;
+    border-radius: 1px;
+    border: solid 2px currentColor;
+}
+
+.card.icon:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: -1px;
+    width: 17px;
+    height: 2px;
+    background-color: currentColor;
+}
+
+.card.icon:after {
+    content: '';
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    width: 4px;
+    height: 1px;
+    background-color: currentColor;
+}
+
+.sidebarRight .balance {
+    height: auto;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sidebarRight .menu {
+    width: 100%;
+    height: 50px;
+}
+
+.sidebarRight h3 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #4d4d4d;
+}
+
+.sidebarRight .menu ul {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    float: left;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.menu .avatar {
+    border-radius: 8px;
+    margin-right: -10px;
+}
+
+.menu .arrow {
+    margin-top: 11px;
+}
+
+.menu p {
+    margin-top: 5px;
+    margin-right: -12px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #414141;
+}
+
+.menu .iconMenu {
+    margin-top: 5px;
+}
+
+.dadosCartao {
+    width: 100%;
+    height: 45px;
+}
+
+.dadosCartao ul {
+    list-style: none;
+}
+
+.dadosCartao li {
+    font-weight: 500;
+    float: left;
+    margin: 10px 10px;
+}
+
+.detalhes .masterCard {
+    margin-top: -3px;
+    margin-left: -15px;
+}
+
+.saldoCartao p {
+    width: 100%;
+    float: left;
+    margin: -5px 10px;
+    color: #5e5e5e;
+}
+
+.saldoCartao h1 {
+    font-weight: 500;
+    padding: 10px 10px;
+    color: #2DB177;
+}
+
+.sidebarRight .faturas {
+    width: 100%;
+    height: 84px;
+    border-radius: 10px;
+}
+
+.faturas ul {
+    list-style: none;
+    margin-left: -2px;
+    user-select: none;
+}
+
+.faturas li {
+    float: left;
+    width: 55px;
+    height: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #5e5e5e;
+    margin-left: 5.5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #2DB177;
+}
+
+.faturas li:hover {
+    cursor: pointer;
+    background-color: #2DB177;
+    color: #fff;
+}
+
+.faturas li a {
+    margin-top: 5px;
+}
+
+.sidebarRight .historico {
+    width: 100%;
+    height: 337px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.historico ul {
+    list-style: none;
+}
+
+.historico img {
+    float: left;
+    padding: 0px 12px;
+    margin-right: 2px;
+    margin-top: -9px;
+}
+
+.historico li {
+    float: left;
+    padding: 21px 0px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.historico .hitoricoLinha {
+    background-color: #ffffff;
+    width: 100%;
+    height: 22.8px;
+}
+
+.hitoricoLinha p {
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #585858;
+}
+
+.hitoricoLinha h5 {
+    font-weight: 500;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.hitoricoLinha span {
+    float: right;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -32px;
+    margin-right: 8px;
+    color: #2e2e2e;
+}
+
+.cards .card1 img {
+    margin: 5px 14px;
+}
+
+.cards .card1 p {
+    font-weight: 300;
+    font-size: 15px;
+    margin: -15px 14px;
+    color: #fff;
+}
+
+.card1 h3 {
+    font-weight: 300;
+    font-size: 25px;
+    color: #fff;
+    margin: 12px 14px;
+}
+
+.cards span {
+    float: right;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 10px 14px;
+    color: #fff;
+}
